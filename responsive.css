@@ -1,0 +1,141 @@
+@media only screen and (min-width:680px) and (max-width:1004px){
+    
+    body{
+        font-size:small;
+    }
+    .songName{
+        display: block;
+        font-size: smaller;
+    }
+    .songlistplay{
+        display: flex;
+        align-items: flex-end;
+    }
+    nav{
+        display: block;
+    }
+    .main{
+        min-height: 72vh;
+        width: 80%;
+    }
+    .bottom{
+        /* position: sticky; */
+    }
+    /* body{
+        background-color: aquamarine;
+    }
+    .main{
+        display: block;
+        grid-gap: 1rem;
+        grid-template-areas:
+        'nav nav nav nav' 
+        'footer footer footer footer';
+    } */
+
+}
+@media only screen and (min-width:568px) and (max-width:679px) {
+    body{
+        /* background-image: linear-gradient(rgb(250, 223, 215), rgba(155, 53, 53, 0.993)); */
+        /* background-color: rgb(103, 180, 88); */
+    }
+    body{
+        font-size:small;
+    }
+    .songList h1{
+        font-size: 23px;
+    }
+
+    .songName{
+        display: block;
+        font-size: smaller;
+    }
+    .songlistplay{
+        /* min-width: 34vh; */
+        display: flex;
+        align-items: flex-end;
+    }
+    nav{
+        display: block;
+    }
+    .main{
+        width: 80%;
+    }
+    .songItem img{
+        width: 43px;
+        margin: 0px 23px;
+        border-radius: 4px;
+    }
+    #lmd{
+        margin: 0px 1px 0px 8px;
+    }
+    .songlistplay{
+
+    }
+    #playsongname{
+        font-size: 13px;
+    }
+    .icons img{
+        /* width: 27px; */
+        height: 27px;
+    }
+    .bottom{
+    }
+}
+
+
+@media only screen and (min-width:360px) and (max-width:567px) {
+    body{
+        /* background-image: linear-gradient(rgb(250, 223, 215), rgba(155, 53, 53, 0.993)); */
+        /* background-color: rgb(169, 88, 180); */
+    }
+    body{
+        font-size:small;
+    }
+
+    .songName{
+        display: block;
+        font-size: smaller;
+    }
+    .songlistplay{
+        display: flex;
+        align-items: flex-end;
+    }
+    nav{
+        display: block;
+    }
+    .songList h1{
+        font-size: medium;
+    }
+    .main{
+        width: 80%;
+    }
+    .songItem img{
+        width: 43px;
+        margin: 0px 19px 0px 0px;
+        border-radius: 45px;
+    }
+    #lmd{
+        margin: 0px 1px 0px 8px;
+    }
+    .songlistplay{
+
+    }
+    #playsongname{
+        display: flex;
+        text-align: start;
+        justify-items: center;
+        font-size: 9px;
+    }
+    .icons img{
+        height: 27px;
+    }
+    .icons{
+        
+    }
+    .songItem{
+        width: 70%;
+    }
+    .bottom{
+        /* position: sticky; */
+    }
+}

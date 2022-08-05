@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#About{
+    cursor: pointer;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: rgb(198, 3, 5);
+    color: white;
+}
+nav ul li{
+    padding: 0px 10px;
+}
+.brand img{
+    width: 47px ;
+    padding:0px 6px 0px 1px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+.main{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 18px 23px;
+    background-image: url(image/leaf2.png) ; /* Change */
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+    /* bottom: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#myProgressBar{
+    width:80vw;
+    cursor:pointer;
+}
+.icons{
+    color: white;
+    margin-top: 14px;
+    width: 33px;
+    display: flex;
+    align-items: center;
+}
+.icons img{
+    margin: 0px 4px;
+    cursor: pointer;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    /* background-color: rgb(255, 255, 255); */
+    background-color: rgb(175 175 175 / 92%);     /* Change */
+    width: 51%;
+    color: black;
+    margin: 8px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songItem img{
+    width: 85px;
+    margin: 0px 23px;
+    border-radius: 4px;
+}
+.timestamp{
+    margin: 0px 1px 0px 22px;
+}
+.songlistplay{
+    display: flex;
+    align-items: flex-end;
+}
+.allSongs{
+    margin-top: 23px;
+    margin-bottom: 44px;
+}
+.songlistplay img{
+    cursor: pointer;
+}
+.musicInfo{
+    font-family: 'Cormorant Garamond', serif;
+    position: absolute;
+    left: 10vw;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.musicInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+
